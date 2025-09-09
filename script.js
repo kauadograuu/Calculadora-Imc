@@ -22,6 +22,6 @@ let classificacao = "";
     }else{
         classificacao = "obesidade";
     }
-    resultado.textContent = `${nome} seu IMC é ${valorIMC}!`; , sua classificacao é $'(classificacao)';
+    resultado.textContent = '${nome} seu IMC é ${valorIMC} , sua classificacao é $'(classificacao)';}
 }
 calcular.addEventListener('click',imc);
